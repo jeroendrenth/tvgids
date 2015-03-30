@@ -2,30 +2,27 @@
 <html>
 <head>
     <title>My Test Extension Options</title>
-    <style>
-        html {
-            width: 600px;
-        }
 
-        .checkbox {
-            display: inline-block;
-            padding: 2px;
-            width: 190px;
-        }
-    </style>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="css/options.min.css">
+
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/classes/guide.min.js"></script>
+    <script src="js/options.min.js"></script>
 </head>
 <body>
-<a href="popup.html">Terug</a>
+<div id="toolbar">
+    <a href="popup.html">Terug</a>
+</div>
+
 <div class="form">
     <h1>Welke zenders wilt u tonen?</h1>
+
     <div id="channels"></div>
 
     <div id="status"></div>
     <button id="save">Save</button>
 </div>
-
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="js/guide.js"></script>
-<script src="js/options.js"></script>
 </body>
 </html>

@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head lang="en">
-        <meta charset="UTF-8">
-        <title></title>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
 
-        <link rel="stylesheet" type="text/css" href="css/channel.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <script src="bower_components/jquery/dist/jquery.min.js"></script>
-        <script src="js/guide.js"></script>
-        <script src="js/channel.js"></script>
-    </head>
-    <body>
-        <a href="popup.html">Terug</a>
-        <h1>Channel name</h1>
-        <table>
-            <tr>
-                <th>Programma</th>
-                <th>Van</th>
-                <th>Tot</th>
-            </tr>
-        </table>
-    </body>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="css/channel.min.css">
+
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/classes/guide.min.js"></script>
+    <script src="js/classes/program.min.js"></script>
+    <script src="js/pages/channel_page.min.js"></script>
+</head>
+<body>
+<div id="toolbar">
+    <a href="popup.html" class="back">Terug</a>
+    <div id="logo"></div>
+    <div class="navigate">
+        <a href="channel.html" id="previous" title="Vorige zender"></a>
+        |
+        <a href="channel.html" id="next" title="Volgende zender"></a>
+    </div>
+</div>
+
+<table>
+    <tr>
+        <th>Programma</th>
+        <th>Van</th>
+        <th>Tot</th>
+    </tr>
+</table>
+</body>
 </html>
